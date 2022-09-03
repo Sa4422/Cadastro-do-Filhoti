@@ -1,0 +1,116 @@
+body{
+
+    background-color :blueviolet;
+    font-size: 20px;
+    
+
+}
+.aoredor{
+    border: 3px black solid;
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+h1{
+
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Corben', cursive;
+    font-size: 30px;
+
+}
+.text{
+    margin: 10px;
+    border-radius: 5px;
+}
+label{
+    font-weight: bold;
+    color: black;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.validar{
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 60px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    
+}
+.validar:hover,.enviar:hover{
+    background-color: rgb(209, 205, 205);
+}
+
+.enviar{
+    margin-bottom: 20px;
+    text-align: right;
+    float: right;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.enviar:active,.validar:active{
+    background-color: gray;
+    font-size: 17.8px;
+    animation-duration: 100ms;
+}
+legend
+{
+  font-style:bold;
+  color: purple;
+  font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+}
+fieldset{
+    border: 2px black solid;
+}
+#observacoes{
+    height: 70px;
+}
+input[type="file"] {
+    display: none;
+}
+.imgenviar {
+    padding: 10px 5px;
+    width: 400px;
+    border: 2px black solid;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.imgenviar:hover{
+    font-size: 110%;
+}
+.imgpet{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    border-radius: 19px;
+    padding: 20px;
+    max-height: 120px;
+
+
+}
+textarea{
+    margin: 15px;
+    border-radius: 5px;
+    border: 2px black solid;
+    width: 400px;
+    max-width: 410px;
+    min-width: 200px;
+    min-height: 70px;
+}
+.erro{
+    box-shadow: 0 0 5px 1px red;
+}
+.correto{
+    box-shadow: 0 0 0px 1px white;
+}
